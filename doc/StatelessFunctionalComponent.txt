@@ -1,0 +1,12 @@
+when have only small function , such as only render() in component, you can use Stateless functional component instead.
+
+like this
+// not maintain any state
+var About = function(props){
+  return(
+  <h3>About</h3>
+  );
+};
+
+Some component cannot do like this , Weather,
+- have more function than render()
